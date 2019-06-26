@@ -21,7 +21,7 @@ version space that keeps track of only two boundary sets G and S, which contains
 Accoringly, the version space is precisely the set of hypotheses contained in G, plus those contained in S, plus those that lie between G and S in the partially ordered hypothesis space (See Theorem 2.1 of [] for a formal proof of this fact).
 The Candiate Elimination algorithm using version spaces is described by the following figure:
 
-![] (https://github.com/kingjames24/fictional-happiness/blob/master/Screen%20Shot%202019-06-26%20at%2011.28.14%20AM.png)
+![](Screen%20Shot%202019-06-26%20at%2011.28.14%20AM.png)
 
 
 
