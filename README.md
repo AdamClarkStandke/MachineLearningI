@@ -22,7 +22,7 @@ The Candidate Elimination Algorithm is described by the following figure:
 ![](Screen%20Shot%202019-06-26%20at%2011.28.14%20AM.png)
 
 # How to Use the Program
-The portion that contains Java's runnable method is contained in the class called CandidateAlgorithm. From there the rest of  the other Java files are called when needed. The class CandidateAlgorithm is composed of three methods.
+The portion that contains Java's runnable method is contained in the class called CanidateAlgorithm. From inside that class, the rest of the other Java files are called when needed. The class CanidateAlgorithm is composed of three methods.
 
 The first part is the static void main method that acts as an interface for the user. The program will first ask the user to enter a target concept that it would like to learn(eg., Is a mushroom poisonous). Then, the program will ask the user to enter how many attributes describe the target concept. After doing so, the user will enter the positive and negative class labels associated with the training data. Once both class labels have been supplied, the program will ask for the file path of the training data. It must be in csv format and separated by commas.
 
