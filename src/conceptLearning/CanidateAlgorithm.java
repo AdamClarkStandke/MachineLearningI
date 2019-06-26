@@ -11,66 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 import com.opencsv.CSVReader;
 
-/**
- * 									README 
- * How to use program: 
- * 		This program uses the candidate elimination algorithm to classify
- * mushrooms as either edible (ie., positive label) or poisonous (ie., negative label). The 
- * algorithm can be used for other training data so long as the two class labels are given. 
- * The program will prompt the user to enter the target concept
- * to be learned along with the number of attributes used to describe the concept (For the mushroom
- * classification task the number 21 is to be entered as the number of attributes!!!!), 
- * and the negative and positive labels (For the mushroom classification task the positive label
- * is edible and the negative label is poisonous!!!!!).
- * After doing so, the program will ask for the absolute paths of the training and testing files
- * (For the mushroom classification task the file names are training5.csv and testing5.csv!!!).
- * The program will then print out to the console the version space constructed by the candidate 
- * elimination algorithm and the predicted scores for the testing data. 
- * 
- * Format of Training and Testing instances:
- * 		The training and testing instances used on the candidate elimination algorithm came from the mushroom data 
- * set as found at the following site: https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/
- * However the data was re-organized and cleaned to take the following comma separated form:
- * 
- * BELL,SMOOTH,WHITE,BRUISES,ALMOND,FREE,CLOSE,BROAD,BLACK,ENLARGING,SMOOTH,SMOOTH,WHITE,WHITE,PARTIAL,WHITE,ONE,PENDANT,BLACK,SCATTERED,MEADOWS,EDIBLE
- * 
- * The label for each instance comes at the end rather than at the front and attribute number 11 of the 
- * original data set has been removed due to its incompleteness.
- * 
- * Attribute Information: (classes: edible=e, poisonous=p):
-     1. cap-shape:                bell=b,conical=c,convex=x,flat=f,
-                                  knobbed=k,sunken=s
-     2. cap-surface:              fibrous=f,grooves=g,scaly=y,smooth=s
-     3. cap-color:                brown=n,buff=b,cinnamon=c,gray=g,green=r,
-                                  pink=p,purple=u,red=e,white=w,yellow=y
-     4. bruises?:                 bruises=t,no=f
-     5. odor:                     almond=a,anise=l,creosote=c,fishy=y,foul=f,
-                                  musty=m,none=n,pungent=p,spicy=s
-     6. gill-attachment:          attached=a,descending=d,free=f,notched=n
-     7. gill-spacing:             close=c,crowded=w,distant=d
-     8. gill-size:                broad=b,narrow=n
-     9. gill-color:               black=k,brown=n,buff=b,chocolate=h,gray=g,
-                                  green=r,orange=o,pink=p,purple=u,red=e,
-                                  white=w,yellow=y
-    10. stalk-shape:              enlarging=e,tapering=t
-    11. stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s
-    12. stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s
-    13. stalk-color-above-ring:   brown=n,buff=b,cinnamon=c,gray=g,orange=o,
-                                  pink=p,red=e,white=w,yellow=y
-    14. stalk-color-below-ring:   brown=n,buff=b,cinnamon=c,gray=g,orange=o,
-                                  pink=p,red=e,white=w,yellow=y
-    15. veil-type:                partial=p,universal=u
-    16. veil-color:               brown=n,orange=o,white=w,yellow=y
-    17. ring-number:              none=n,one=o,two=t
-    18. ring-type:                cobwebby=c,evanescent=e,flaring=f,large=l,
-                                  none=n,pendant=p,sheathing=s,zone=z
-    19. spore-print-color:        black=k,brown=n,buff=b,chocolate=h,green=r,
-                                  orange=o,purple=u,white=w,yellow=y
-    20. population:               abundant=a,clustered=c,numerous=n,
-                                  scattered=s,several=v,solitary=y
-    21. habitat:                  grasses=g,leaves=l,meadows=m,paths=p,
-                                  urban=u,waste=w,woods=d
- *  
+/**						
  * @author Adam Standke
  *
  */
