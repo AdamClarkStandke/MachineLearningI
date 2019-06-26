@@ -1,5 +1,5 @@
 # Introduction
-The program is an implementation of the Candidate Elimination Algorithm for a learning target concept(ie., a boolean valued function). This was a project for my machine learning class taught by Dr. David Mooney of Shippensburg University. 
+The program is an implementation of the Candidate Elimination Algorithm for learning a target concept(ie., a boolean valued function). This was a project for my machine learning class taught by Dr. David Mooney of Shippensburg University. 
 
 # Background
 The Candidate Elimination Algorithm is a 
