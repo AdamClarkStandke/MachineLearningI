@@ -18,6 +18,11 @@ version space that keeps track of only two boundary sets G and S, which contains
 ### Definition: The specific boundary S, with respect to hypothesis space H and training data D, is the set of maximally general members of H consistent with D[6]. 
 <a href="https://www.codecogs.com/eqnedit.php?latex=S\equiv&space;\left&space;\{&space;s\in&space;H&space;|&space;Consistent(s,&space;D)\wedge&space;(\lnot&space;\exists&space;s^{'}\in&space;H&space;)[s&space;\gg&space;s^{'}&space;\wedge&space;Consistent(s^{'},&space;D)&space;]&space;\right&space;\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S\equiv&space;\left&space;\{&space;s\in&space;H&space;|&space;Consistent(s,&space;D)\wedge&space;(\lnot&space;\exists&space;s^{'}\in&space;H&space;)[s&space;\gg&space;s^{'}&space;\wedge&space;Consistent(s^{'},&space;D)&space;]&space;\right&space;\}" title="S\equiv \left \{ s\in H | Consistent(s, D)\wedge (\lnot \exists s^{'}\in H )[s \gg s^{'} \wedge Consistent(s^{'}, D) ] \right \}" /></a>
 
+Accoringly, the version space is precisely the set of hypotheses contained in G, plus those contained in S, plus those that lie between G and S in the partially ordered hypothesis space (See Theorem 2.1 of [] for a formal proof of this fact).
+The Candiate Elimination algorithm using version spaces is described by the following figure:
+
+
+
 
 
 
